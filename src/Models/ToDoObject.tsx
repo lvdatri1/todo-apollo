@@ -3,4 +3,4 @@ export interface ToDo{
     status: string;
     id: number;
 };
-export  type Todos= ToDo[];
+export  type ToDos= ToDo[];
