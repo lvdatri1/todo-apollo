@@ -1,6 +1,6 @@
-export interface ToDo{
+export interface ToDoObject {
     name: string;
-    status: string;
+    status: boolean;
     id: number;
 };
-export  type ToDos= ToDo[];
+export type ToDoListObjects = ToDoObject[];
