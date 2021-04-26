@@ -3,6 +3,8 @@ export const GET_TODO_LIST = gql`
 query GetToDoList{
     ToDoList @client{
         name
+        status
+        id
     }
 }
 `
